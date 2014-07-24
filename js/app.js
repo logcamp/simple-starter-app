@@ -50,6 +50,14 @@ angular.module('ionicApp', ['ionic'])
       }
     }
   })
+  .state('page7', {
+    url: "/page7",
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/page7.html'
+      }
+    }
+  })
   $urlRouterProvider.otherwise('/page1');
   
 })
